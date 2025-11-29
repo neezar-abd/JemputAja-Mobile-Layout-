@@ -24,7 +24,31 @@ import { Card } from "@/components/ui/card";
 import { Header } from "@/components/header";
 import { BottomNav } from "@/components/bottom-nav";
 
-const pricingTiers = [
+interface Feature {
+  text: string;
+  included: boolean;
+  highlight?: boolean;
+}
+
+const pricingTiers: Array<{
+  id: string;
+  name: string;
+  subtitle: string;
+  price: number;
+  priceLabel: string;
+  perDay: string;
+  color: string;
+  bgColor: string;
+  borderColor: string;
+  textColor: string;
+  icon: typeof Gift;
+  popular: boolean;
+  wtp: number;
+  features: Feature[];
+  cta: string;
+  ctaVariant: "default" | "outline";
+  savings?: string;
+}> = [
   {
     id: "free",
     name: "Gratis",
