@@ -99,10 +99,10 @@ export default function OnboardingPage() {
           className="mt-8 text-center"
         >
           <h1 className="text-4xl font-bold text-white tracking-tight">
-            JemputAja!
+            PilahYuk
           </h1>
-          <p className="text-white/80 mt-2 text-lg">
-            Sampah dijemput, reward didapat
+          <p className="text-white/80 mt-2 text-sm">
+            Penjemputan Sampah Anorganik dari Rumah
           </p>
         </motion.div>
 

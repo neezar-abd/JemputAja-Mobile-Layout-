@@ -318,7 +318,7 @@ export default function ProfilePage() {
 
           {/* Version */}
           <p className="text-center text-xs text-muted-foreground py-4">
-            JemputAja! v1.0.0 • Made with love in Surabaya
+            PilahYuk v1.0.0 • Made with love in Surabaya
           </p>
         </div>
       </div>

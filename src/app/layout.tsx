@@ -13,13 +13,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "JemputAja! - Sampah Dijemput, Reward Didapat",
+  title: "PilahYuk! - Pilah Sampah, Dapat Reward",
   description: "Aplikasi penjemputan sampah terpilah dengan reward. Ubah sampahmu jadi berkah untuk bumi dan dompetmu!",
   manifest: "/manifest.json",
   appleWebApp: {
     capable: true,
     statusBarStyle: "black-translucent",
-    title: "JemputAja!",
+    title: "PilahYuk!",
   },
 };
 
